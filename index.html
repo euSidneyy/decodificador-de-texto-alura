@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="shortcut icon" href="/assets/decodificadordesign.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <img  class="logoalura" src="/assets/Logo.png" alt="Logo da Alura">
+    </div>
+
+    <main>
+        <div class="container-input">
+            <div class="input">
+                <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container-aviso">
+                <div class="aviso">
+                    <img src="/assets/bi_exclamation-circle-fill.png" alt="Aviso">
+                    <p class="aviso__paragrafo">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="btn">
+                    <div class="btn-container">
+                        <button  onclick="criptografar()" class="btn1">Criptografar</button>
+                        <button  onclick="descriptografar()" class="btn2">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+                
+                <div id="output">
+                    <img class="logogaroto" src="/assets/boy.png" alt="Garoto segurando uma lupa">
+                    <h2 class="titulo">Sua mensagem aparecerá aqui!</h2>                
+                    <span class="paragrafo">Digite um texto que deseja criptografar ou descriptografar.</span>
+                </div>
+            </div>
+        </div>
+     </main>
+
+    <footer class="rodape">Desenvolvido por Sidney Silva</footer>
+
+     <script src="interacao/script.js"></script>
+</body>
+</html>
